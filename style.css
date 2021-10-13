@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(19, 223, 223);
+}
+#center{
+    border-radius: 20px;
+    overflow: hidden;
+    width: 75%;
+    height: 75%;
+    background-color: rgb(255, 255, 255);
+}
+#top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15%;
+    width: 100%;
+    background-color: rgb(49, 172, 172);
+}
+.heading{
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 20%;
+    /* background-color: black; */
+    color: white;
+
+}
+.h_cube{
+    height: 30px;
+    /* width: 30px; */
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bubble{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color:rgb(49, 172, 172) ;
+}
+#bottom{
+    padding: 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left : 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.h_cube{
+    color: black;
+}
+#text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
